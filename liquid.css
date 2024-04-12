@@ -1,0 +1,114 @@
+body, h1, h2, h3, p, ul, li, a { margin: 0; padding: 0; }
+body { font-family: "Times new Roman", serif; color: #333;}
+ul { list-style-type: none; }
+a { text-decoration: none; ; color: inherit; }
+
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.main-content article {
+    flex: 4; /* Allows the article to grow */
+    min-width: 30%; /* Minimum width of a column as a percentage of the parent */
+    max-width: 30%; /* Maximum width of a column as a percentage of the parent */
+    margin: 1%; /* Margin as a percentage of the parent */
+}
+
+#left-float, .right-float {
+    width: 25%; 
+    height: auto;
+    display: block;
+    margin-bottom: 10px; 
+}
+
+header {
+	background-image: url(ImagesForLab/header_pic.png); 
+	color: black;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: left;
+	padding: 30px 0;
+	color: rgb(0, 0, 0);
+}
+  
+#top-nav ul {
+	background-color: #0091e4;
+	overflow: hidden;
+	padding: 15px 0;
+	text-align: left;
+	position: fixed;
+	margin-right: 10px;
+	background-position: center;
+}
+
+#top-nav li {
+	display: inline;
+	margin-right: 30px;
+	columns: left;
+	float: left;
+}
+
+#top-nav li {
+	color: white;
+	padding: 30px 20px;
+	font-size: 30px; 
+}
+
+#top-nav li a:hover {
+	background-color: #0091e4;
+	color: black;
+}
+
+footer {
+	background-color: red;
+	color: white; 
+	text-align: center; 
+	padding: 20px 0; 
+	font-size: 0.8em; 
+}
+  
+body {
+	color: light;
+	font-size: 100%;
+	position: bottom;
+ }
+
+ #Doglist{
+	text-align: left;
+	position: initial;
+ }
+
+ .navBar{
+		
+		background-color: #0091e4;
+		color: white;
+		
+		
+		
+	
+ }
+ .navBar ul{
+	padding: 15px 0;
+	margin-right: 10px;
+	background-position: center;
+	font-size: 2em;
+	text-decoration: underline;
+	display: flex;
+	justify-content: space-between;
+	
+	
+
+
+ }
+ #container{
+	flex: 2;
+
+	
+ }
+#container{
+	flex: 3; 
+}
